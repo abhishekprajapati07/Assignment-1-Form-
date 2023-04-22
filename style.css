@@ -1,0 +1,59 @@
+body{
+    background: url(./wallpaper.jpg);
+    background-size: cover;
+    display: flex;
+}
+h1{
+    color: darkturquoise;
+    padding: 0 23px;
+}
+marquee{
+    color: rgb(121, 179, 226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+  .container {
+    align-items: center;
+    position: absolute;
+    background: rgba(8, 0, 121, 0.5);
+    width: 450px;
+    padding: 40px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 19px 20px rgba(0, 0, 0, 0.6);
+   
+    
+  }
+  .input-container {
+    padding: 8px;
+    border-radius: 2em;
+    position: relative;
+    margin: 0;
+  }
+  label{
+    font-size: 20px;
+    color: rgb(255, 217, 0);
+  }
+  button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    left:40%;
+    background-color: rgb(255, 251, 0);
+    color: rgba(2, 1, 17, 0.5);
+    transition: 0.3s;
+  }
+  button:hover{
+    background-color: rgb(73, 190, 211);
+    color: rgb(0, 0, 0);
+  }
